@@ -33,9 +33,8 @@ ${text_search}  Robot framework
 เข้าดู Video
         #[tags]                      success
         Sleep                       1s
-        Click Element               //ytd-video-renderer
+        Click Element               //*[@id="dismissible"]
         Sleep                       10s
-        #TiTle Should Be 
 
 * Test Case *
 
